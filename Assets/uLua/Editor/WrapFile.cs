@@ -86,7 +86,7 @@ public static class WrapFile {
         
 
         //ngui
-        /*_GT(typeof(UICamera)),
+        _GT(typeof(UICamera)),
         _GT(typeof(Localization)),
         _GT(typeof(NGUITools)),
 
@@ -110,7 +110,7 @@ public static class WrapFile {
         _GT(typeof(TweenPosition)),
         _GT(typeof(TweenScale)),
         _GT(typeof(UICenterOnChild)),    
-        _GT(typeof(UIAtlas)),*/         
+        _GT(typeof(UIAtlas)),         
     };
 
     public static BindType _GT(Type t) {
